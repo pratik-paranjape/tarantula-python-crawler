@@ -32,7 +32,7 @@ from general import *
 # Global variable to store project name - Users change this value
 PROJECT_NAME = 'TEST'
 # Global variable to store homepage url - Users change this value
-HOMEPAGE = 'https://test.com/'
+HOMEPAGE = 'https://example.com/'
 # Global variable that extracts domain name from homepage url
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
 # Queue file name
