@@ -30,9 +30,9 @@ from domain import *
 from general import *
 
 # Global variable to store project name - Users change this value
-PROJECT_NAME = 'SMA'
+PROJECT_NAME = 'TEST'
 # Global variable to store homepage url - Users change this value
-HOMEPAGE = 'https://sagarmusicacademy.com/'
+HOMEPAGE = 'https://test.com/'
 # Global variable that extracts domain name from homepage url
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
 # Queue file name
