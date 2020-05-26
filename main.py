@@ -30,9 +30,9 @@ from domain import *
 from general import *
 
 # Global variable to store project name - Users change this value
-PROJECT_NAME = 'TEST'
+PROJECT_NAME = input("Enter a directory name: ")
 # Global variable to store homepage url - Users change this value
-HOMEPAGE = 'https://example.com/'
+HOMEPAGE = input("Specify the homepage URL (format [http(s)://(www.)example.com]): ")
 # Global variable that extracts domain name from homepage url
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
 # Queue file name
@@ -40,7 +40,7 @@ QUEUE_FILE = PROJECT_NAME + '/queue.txt'
 # Crawled file name
 CRAWLED_FILE = PROJECT_NAME + '/crawled.txt'
 # Number of threads - Users can experiment to see performance changes
-NUMBER_OF_THREADS = 8
+NUMBER_OF_THREADS = int(input("How many threads do you want?: "))
 
 # Create an empty Queue() object
 queue = Queue()
